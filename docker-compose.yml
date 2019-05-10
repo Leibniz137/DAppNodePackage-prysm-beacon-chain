@@ -1,0 +1,11 @@
+version: '3.4'
+services:
+    prysm-beacon-chain.public.dappnode.eth:
+        image: 'prysm-beacon-chain.public.dappnode.eth:0.0.1'
+        build: ./build
+        volumes:
+            - 'data:/data'
+        ports:
+            - '4000:4000'
+volumes:
+    data: {}
