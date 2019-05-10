@@ -1,9 +1,9 @@
 # Prysm beacon-chain dappode package
 
-[![DAppNodeStore Available](https://img.shields.io/badge/DAppNodeStore-Available-brightgreen.svg)](http://my.admin.dnp.dappnode.eth/#/installer/vipnode.dnp.dappnode.eth)
+[![DAppNodeStore Available](https://img.shields.io/badge/DAppNodeStore-Available-brightgreen.svg)](http://my.admin.dnp.dappnode.eth/#/installer/http://my.admin.dnp.dappnode.eth/#/installer/%2Fipfs%2FQmNsGb5atP447JJeSzZnvKNvwuvaXyQxCHZondQXWBbiFK)
 
-[![prysm github](https://img.shields.io/badge/Vipnode-Github-blue.svg)](https://alpha.prylabs.net/)
-[![prysm participate](https://img.shields.io/badge/Vipnode-website-753a88.svg)](https://alpha.prylabs.net/participate)
+[![prysm github](https://img.shields.io/badge/prysm-Github-blue.svg)](https://alpha.prylabs.net/)
+[![prysm participate](https://img.shields.io/badge/prysm-participate-753a88.svg)](https://alpha.prylabs.net/participate)
 
 ## Note
 
