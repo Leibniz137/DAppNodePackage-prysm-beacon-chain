@@ -1,6 +1,6 @@
 # Prysm beacon-chain DAppNode package
 
-[![DAppNode Available](https://img.shields.io/badge/DAppNode-Available-brightgreen.svg)](http://my.admin.dnp.dappnode.eth/#/installer/%2Fipfs%2FQmNkzLxqM36tJ3wzAVBFxNndyMtdjHKP8zQCBo39gWjxGd)
+[![DAppNode Available](https://img.shields.io/badge/DAppNode-Available-brightgreen.svg)](http://my.admin.dnp.dappnode.eth/#/installer/%2Fipfs%2FQmUHPcP4vv2bk58QnCzwbfs5dWcJCbhWdXgDnLUgjpRRQa)
 
 [![prysm github](https://img.shields.io/badge/prysm-Github-blue.svg)](https://alpha.prylabs.net/)
 [![prysm participate](https://img.shields.io/badge/prysm-participate-753a88.svg)](https://alpha.prylabs.net/participate)
@@ -9,7 +9,7 @@
 
 1. Install the DAppNodePackage: 
 
-[![DAppNode Install](https://img.shields.io/badge/DAppNode-Install-blue.svg)](http://my.admin.dnp.dappnode.eth/#/installer/%2Fipfs%2FQmNkzLxqM36tJ3wzAVBFxNndyMtdjHKP8zQCBo39gWjxGd)
+[![DAppNode Install](https://img.shields.io/badge/DAppNode-Install-blue.svg)](http://my.admin.dnp.dappnode.eth/#/installer/%2Fipfs%2FQmUHPcP4vv2bk58QnCzwbfs5dWcJCbhWdXgDnLUgjpRRQa)
 
 2. After the installation the beacon-chain and the validator should be running on your DAppNode: http://my.dappnode/#/packages
 
