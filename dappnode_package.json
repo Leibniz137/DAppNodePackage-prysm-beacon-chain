@@ -1,13 +1,13 @@
 {
   "name": "prysm-beacon-chain.public.dappnode.eth",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Prysm: a Go implementation of the Ethereum 2.0 Serenity protocol and open source project created by Prysmatic Labs. Beacon node which powers the beacon chain at the core of Ethereum 2.0",
   "avatar": "/ipfs/QmTF6W5LAoUaPfKwYiLH1fiqv4AyEJjyVYF98B6wTNYemv",
   "type": "service",
   "image": {
-    "path": "prysm-beacon-chain.public.dappnode.eth_0.0.1.tar.xz",
-    "hash": "/ipfs/QmQsypbWFhAKa9oYG5vnZghPzw5CiizeukqmNKChw74kth",
-    "size": 19367282,
+    "path": "",
+    "hash": "",
+    "size": "",
     "restart": "always",
     "volumes": [
       "data:/data"
