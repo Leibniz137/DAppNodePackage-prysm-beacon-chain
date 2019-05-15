@@ -2,8 +2,8 @@
 
 [![DAppNode Available](https://img.shields.io/badge/DAppNode-Available-brightgreen.svg)](http://my.dappnode/#/installer/%2Fipfs%2FQmcdLWd6NEFdeMjNZL4FVqoepPa2tJ5um3vrdyRGApQMwW)
 
-[![prysm github](https://img.shields.io/badge/prysm-Github-blue.svg)](https://alpha.prylabs.net/)
-[![prysm participate](https://img.shields.io/badge/prysm-participate-753a88.svg)](https://alpha.prylabs.net/participate)
+[![prysm github](https://img.shields.io/badge/prysm-Github-blue.svg)](https://prylabs.net/)
+[![prysm participate](https://img.shields.io/badge/prysm-participate-753a88.svg)](https://prylabs.net/participate)
 
 # Installation Notes
 
@@ -15,7 +15,7 @@
 
 ![](https://i.imgur.com/11y8pgQ.png)
 
-3. Go to https://alpha.prylabs.net/participate
+3. Go to https://prylabs.net/participate
 
     3.1 Skip step one, go to number two (Get GöETH — Test ether) and follow the steps
 
