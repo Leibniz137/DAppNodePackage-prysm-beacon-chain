@@ -1,40 +1,37 @@
 {
   "name": "prysm-beacon-chain.public.dappnode.eth",
   "version": "0.0.2",
+  "upstreamVersion": "HEAD-0cec0e",
+  "shortDescription": "Prysm ETH2.0 Beacon chain",
   "description": "Prysm: a Go implementation of the Ethereum 2.0 Serenity protocol and open source project created by Prysmatic Labs. Beacon node which powers the beacon chain at the core of Ethereum 2.0",
-  "avatar": "/ipfs/QmTF6W5LAoUaPfKwYiLH1fiqv4AyEJjyVYF98B6wTNYemv",
   "type": "service",
-  "image": {
-    "path": "",
-    "hash": "",
-    "size": "",
-    "restart": "always",
-    "volumes": [
-      "data:/data"
-    ],
-    "ports": [
-      "4000:4000"
-    ],
-    "keywords": [
-      "Ethereum2.0",
-      "DAppNode",
-      "Beacon-chain"
-    ]
-  },
-  "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
+  "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
   "contributors": [
-    "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)"
+    "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+    "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)"
   ],
   "license": "GPL-3.0",
   "homepage": {
-    "homepage": "https://alpha.prylabs.net/participate"
+    "homepage": "https://prylabs.net/participate",
+    "readme": "https://github.com/eduadiez/DAppNodePackage-prysm-beacon-chain"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dappnode/DAppNodePackage-prysm-beacon-chaingit"
+    "url": "git+https://github.com/eduadiez/DAppNodePackage-prysm-beacon-chain.git"
   },
   "bugs": {
-    "url": "https://github.com/dappnode/DAppNodePackage-prysm-beacon-chain/issues"
+    "url": "https://github.com/eduadiez/DAppNodePackage-prysm-beacon-chain/issues"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "requirements": {
+    "minimumDappnodeVersion": "0.2.20"
+  },
+  "categories": ["Blockchain", "ETH2.0"],
+  "links": {
+    "homepage": "https://prylabs.net/participate",
+    "readme": "https://github.com/eduadiez/DAppNodePackage-prysm-beacon-chain",
+    "prysm": "https://prylabs.net",
+    "validators": "https://goerli.etherscan.io/address/0xB880162F8b188E9D7b075081f6E38fc3657ae10e"
+  }
 }
+
