@@ -11,10 +11,6 @@
     "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)"
   ],
   "license": "GPL-3.0",
-  "homepage": {
-    "homepage": "https://prylabs.net/participate",
-    "readme": "https://github.com/eduadiez/DAppNodePackage-prysm-beacon-chain"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eduadiez/DAppNodePackage-prysm-beacon-chain.git"
@@ -22,7 +18,6 @@
   "bugs": {
     "url": "https://github.com/eduadiez/DAppNodePackage-prysm-beacon-chain/issues"
   },
-  "dependencies": {},
   "requirements": {
     "minimumDappnodeVersion": "0.2.20"
   },
