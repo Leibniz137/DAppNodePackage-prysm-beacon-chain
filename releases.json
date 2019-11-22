@@ -14,5 +14,13 @@
       "dappnode": "Fri, 22 Nov 2019 12:01:04 GMT"
     },
     "link": "http://my.dappnode/#/sdk/publish/r=prysm-beacon-chain.public.dappnode.eth&v=0.1.0&h=%2Fipfs%2FQmTvsTpznAtFrE9j6bHPN2oua8s7nLVDHuQNuALxB2Tq36&d=0xF35960302a07022aBa880DFFaEC2Fdd64d5BF1c1"
+  },
+  "0.1.1": {
+    "hash": "/ipfs/QmZidjMUvpTz3PbpNQk3Fm5Nfx9mHDHB2pmKXnjHbnvJ9X",
+    "type": "directory",
+    "uploadedTo": {
+      "dappnode": "Fri, 22 Nov 2019 18:45:58 GMT"
+    },
+    "link": "http://my.dappnode/#/sdk/publish/r=prysm-beacon-chain.public.dappnode.eth&v=0.1.1&h=%2Fipfs%2FQmZidjMUvpTz3PbpNQk3Fm5Nfx9mHDHB2pmKXnjHbnvJ9X"
   }
 }
