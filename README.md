@@ -1,6 +1,6 @@
 # Prysm beacon-chain DAppNode package
 
-[![DAppNode Available](https://img.shields.io/badge/DAppNode-Available-brightgreen.svg)](http://my.dappnode/#/installer/%2Fipfs%2FQmZQ35roYu64Pb6kohzNVpSHoSGcCV1wx5KBRJSrFg5Zgu)
+[![DAppNode Available](https://img.shields.io/badge/DAppNode-Available-brightgreen.svg)](http://my.dappnode/#/installer/prysm-beacon-chain.public.dappnode.eth)
 
 [![prysm github](https://img.shields.io/badge/prysm-Github-blue.svg)](https://prylabs.net/)
 [![prysm participate](https://img.shields.io/badge/prysm-participate-753a88.svg)](https://prylabs.net/participate)
