@@ -1,8 +1,8 @@
 {
   "image": {
-    "path": "prysm-beacon-chain-nate.public.dappnode.eth_0.1.0.tar.xz",
-    "hash": "/ipfs/QmRqS954dJqKS7qB3E3FMZrVy1m6cUi2PJiRyxP9FcWxF9",
-    "size": 14424240,
+    "path": "prysm-beacon-chain-nate.public.dappnode.eth_0.1.1.tar.xz",
+    "hash": "/ipfs/QmRFgsCrZPq8Kxirs2CJdbVkxD37AUdeXkKJB3JLEJh5es",
+    "size": 14419712,
     "ports": [
       "4000:4000"
     ],

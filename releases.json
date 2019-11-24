@@ -1,0 +1,16 @@
+{
+  "0.1.0": {
+    "hash": "/ipfs/QmYYSzJNdEKU1pVcDrsYhStrksDFwFaxRbs1U5EE4jjy5C",
+    "type": "manifest",
+    "uploadedTo": {
+      "dappnode": "Sun, 24 Nov 2019 20:21:36 GMT"
+    }
+  },
+  "0.1.1": {
+    "hash": "/ipfs/Qmc4Gfb6f7v76i8fkeMeKEjouhYJzqPTwXLSTf7ZoeUgnh",
+    "type": "manifest",
+    "uploadedTo": {
+      "dappnode": "Sun, 24 Nov 2019 23:11:53 GMT"
+    }
+  }
+}
