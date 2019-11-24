@@ -41,7 +41,6 @@
     "homepage": "https://prylabs.net/participate",
     "readme": "https://github.com/Leibniz137/DAppNodePackage-prysm-beacon-chain",
     "prysm": "https://prylabs.net",
-    "validators": "https://goerli.etherscan.io/address/0xB880162F8b188E9D7b075081f6E38fc3657ae10e"
   },
   "avatar": "/ipfs/QmZDjWTdaRURFqpw9EDnZW84NE8oQDQX83wLVfmEPZ8yX9"
 }
