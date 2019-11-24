@@ -11,7 +11,7 @@ To install, join your dappnode wireless network, then click this link:
 
 # Adding a validator:
 
-### WORK IN PROGRESS
+### (THIS SECTION IS A WORK IN PROGRESS)
 
 1. After the installation the beacon-chain and the validator should be running on your DAppNode: http://my.dappnode/#/packages
 
