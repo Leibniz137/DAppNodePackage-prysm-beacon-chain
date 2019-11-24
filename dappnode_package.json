@@ -16,7 +16,7 @@
     "url": "git+https://github.com/Leibniz137/DAppNodePackage-prysm-beacon-chain.git"
   },
   "bugs": {
-    "url": "https://github.com/eduadiez/DAppNodePackage-prysm-beacon-chain/issues"
+    "url": "https://github.com/Leibniz137/DAppNodePackage-prysm-beacon-chain/issues"
   },
   "requirements": {
     "minimumDappnodeVersion": "0.2.20"
