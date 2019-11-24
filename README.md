@@ -1,6 +1,6 @@
 # Prysm beacon-chain DAppNode package
 
-# Instal this DNP:
+# Install this DNP:
 To install, join your dappnode wireless network, then click this link:
 [![Install DNP](https://img.shields.io/badge/DAppNode-Available-brightgreen.svg)](http://my.dappnode/#/installer/%2Fipfs%2FQmc4Gfb6f7v76i8fkeMeKEjouhYJzqPTwXLSTf7ZoeUgnh)
 
