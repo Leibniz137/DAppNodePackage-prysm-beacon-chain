@@ -1,3 +1,11 @@
-FROM gcr.io/prysmaticlabs/prysm/beacon-chain@sha256:58f4c9939ce8562d5871e8f0fa209d99721876d09225091f9e8180fe3052e19b as binary
+FROM gcr.io/prysmaticlabs/prysm/beacon-chain@sha256:7efb30a12bc1bd0e3bc87ee01f051dba790d087647996805f15e0f878829de0b as binary
 
-ENTRYPOINT ["/app/beacon-chain/image.binary","--datadir=/data","--init-sync-no-verify"]
+FROM alpine
+
+# Install dependencies
+RUN apk --update add bash ca-certificates libc6-compat && \
+    rm  -rf /tmp/* /var/cache/apk/*
+
+COPY --from=binary /app/beacon-chain/image.binary /usr/local/bin/beacon-chain
+
+ENTRYPOINT beacon-chain --datadir=/data --init-sync-no-verify $EXTRA_OPTS
