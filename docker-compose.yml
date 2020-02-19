@@ -8,7 +8,7 @@ services:
       args:
         - >-
           SHA256=sha256:12dd8ace1d9f754184de2574eab96a8f447ca5c89e0b0c9f5bf25fa558acd80a
-    command: "--datadir=/data"
+    command: '--datadir=/data'
     volumes:
       - 'data:/data'
     ports:

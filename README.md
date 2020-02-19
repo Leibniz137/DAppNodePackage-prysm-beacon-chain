@@ -52,6 +52,12 @@ You can check it by looking at the validator logs: http://my.dappnode/#/Packages
 ![](https://i.imgur.com/Sfq88es.png)
 
 
+## Updating beacon chain image
+To update the beacon chain image, we will update the sha256 hash of the image.
+
+The hash is stored as a build arg in the [docker-compose file](./docker-compose.yml)
+
+
 ## Note
 
 This is early stage software and it's just a PoC
