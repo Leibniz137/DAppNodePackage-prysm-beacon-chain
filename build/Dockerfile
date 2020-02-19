@@ -1,4 +1,5 @@
-FROM gcr.io/prysmaticlabs/prysm/beacon-chain@sha256:113a07ab26a0e269cd0aee872f24464f163db353d658e32cc990e15fe205c856 as binary
+ARG SHA256
+FROM gcr.io/prysmaticlabs/prysm/beacon-chain@$SHA256 as binary
 
 FROM alpine
 
