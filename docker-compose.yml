@@ -2,13 +2,17 @@ version: '3.4'
 services:
   prysm-beacon-chain.public.dappnode.eth:
     image: 'prysm-beacon-chain.public.dappnode.eth:0.1.3'
-    build: ./build
+    build:
+      context: ./build
+      # put SHA256 on it's own line so that it can be easily replaced with sed
+      args:
+        - >-
+          SHA256=sha256:12dd8ace1d9f754184de2574eab96a8f447ca5c89e0b0c9f5bf25fa558acd80a
+    command: '--datadir=/data'
     volumes:
       - 'data:/data'
     ports:
       - '4000:4000'
     restart: always
-    environment:
-      - EXTRA_OPTS
 volumes:
   data: {}
