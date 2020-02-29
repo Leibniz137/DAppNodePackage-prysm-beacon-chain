@@ -28,19 +28,19 @@ jobs:
         echo "VERSION=@${VERSION_DIGEST}" > .env
         sed -i 's/.*upstreamVersion.*/  "upstreamVersion": "'${VERSION_HEAD}'",/g' dappnode_package.json
     - name: Setup nodejs
-      if: steps.latest-head.outputs.NEW_VERSION == true
+      if: steps.latest-head.outputs.NEW_VERSION == 'true'
       uses: actions/setup-node@v1
       with:
         node-version: '10.x'
     - name: dappnodesdk install
-      if: steps.latest-head.outputs.NEW_VERSION == true
+      if: steps.latest-head.outputs.NEW_VERSION == 'true'
       run: npm install -g @dappnode/dappnodesdk
     - name: Get next DAppNodePackage release
-      if: steps.latest-head.outputs.NEW_VERSION == true
+      if: steps.latest-head.outputs.NEW_VERSION == 'true'
       id: next-release
       run: echo "::set-output name=DNP_VERSION::$(dappnodesdk next patch -p infura)"
     - name: Check and delete if a release already exists
-      if: steps.latest-head.outputs.NEW_VERSION == true
+      if: steps.latest-head.outputs.NEW_VERSION == 'true'
       env:
         GITHUB_TOKEN: ${{ secrets.AUTH_TOKEN }}
       run: | 
@@ -50,17 +50,17 @@ jobs:
           curl -H "Authorization: token ${GITHUB_TOKEN}" -X DELETE https://api.github.com/repos/${{ github.repository }}/releases/${RELEASE_ID}
         fi
     - name: Docker-Compose Build
-      if: steps.latest-head.outputs.NEW_VERSION == true
+      if: steps.latest-head.outputs.NEW_VERSION == 'true'
       run: |
         docker-compose build
     - name: dappnodesdk
-      if: steps.latest-head.outputs.NEW_VERSION == true
+      if: steps.latest-head.outputs.NEW_VERSION == 'true'
       id: dappnodesdk-publish
       run: |
         dappnodesdk publish patch --eth_provider ${{ secrets.ETH_PROVIDER }} --ipfs_provider ${{ secrets.IPFS_PROVIDER }} > publish.txt
         echo "::set-output name=RESULT::$(grep "sdk/publish/r=" publish.txt)"
     - name: Create Release
-      if: steps.latest-head.outputs.NEW_VERSION == true
+      if: steps.latest-head.outputs.NEW_VERSION == 'true'
       id: create_release
       uses: actions/create-release@latest
       env:
@@ -76,7 +76,7 @@ jobs:
         draft: false
         prerelease: true
     - name: Upload Release .xz file
-      if: steps.latest-head.outputs.NEW_VERSION == true
+      if: steps.latest-head.outputs.NEW_VERSION == 'true'
       uses: actions/upload-release-asset@v1
       env:
         GITHUB_TOKEN: ${{ secrets.AUTH_TOKEN }}
@@ -86,7 +86,7 @@ jobs:
         asset_name: prysm-beacon-chain.public.dappnode.eth_${{ steps.next-release.outputs.DNP_VERSION }}.tar.xz
         asset_content_type: 'application/octet-stream'
     - name: Upload Release avatar file
-      if: steps.latest-head.outputs.NEW_VERSION == true
+      if: steps.latest-head.outputs.NEW_VERSION == 'true'
       uses: actions/upload-release-asset@v1
       env:
         GITHUB_TOKEN: ${{ secrets.AUTH_TOKEN }}
@@ -96,7 +96,7 @@ jobs:
         asset_name: avatar.png
         asset_content_type: 'application/octet-stream'
     - name: Upload Release dappnode_package.json file
-      if: steps.latest-head.outputs.NEW_VERSION == true
+      if: steps.latest-head.outputs.NEW_VERSION == 'true'
       uses: actions/upload-release-asset@v1
       env:
         GITHUB_TOKEN: ${{ secrets.AUTH_TOKEN }}
@@ -106,7 +106,7 @@ jobs:
         asset_name: dappnode_package.json
         asset_content_type: 'application/octet-stream'
     - name: Upload Release docker-compose.yml file
-      if: steps.latest-head.outputs.NEW_VERSION == true
+      if: steps.latest-head.outputs.NEW_VERSION == 'true'
       uses: actions/upload-release-asset@v1
       env:
         GITHUB_TOKEN: ${{ secrets.AUTH_TOKEN }}
@@ -116,7 +116,7 @@ jobs:
         asset_name: docker-compose.yml
         asset_content_type: 'application/octet-stream'
     - name: Commit changes
-      if: steps.latest-head.outputs.NEW_VERSION == true
+      if: steps.latest-head.outputs.NEW_VERSION == 'true'
       run: |
           git config --global user.email "eduadiez@gmail.com"
           git config --global user.name "Eduardo"
