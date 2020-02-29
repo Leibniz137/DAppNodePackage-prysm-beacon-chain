@@ -53,11 +53,12 @@ You can check it by looking at the validator logs: http://my.dappnode/#/Packages
 
 
 ## Updating beacon chain image
-To update the beacon chain image, update the sha256 hash of the image.
+By default is going to use "latest" as image. 
 
-The hash is stored as a build arg in the [docker-compose file](./docker-compose.yml)
-
-
+If you want to use an expecific version you can do it by adding it to the .env file
+```
+echo "VERSION=@sha256:12dd8ace1d9f754184de2574eab96a8f447ca5c89e0b0c9f5bf25fa558acd80a" > .env
+```
 ## Note
 
 This is early stage software and it's just a PoC
